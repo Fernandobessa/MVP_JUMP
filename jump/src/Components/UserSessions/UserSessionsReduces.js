@@ -1,7 +1,6 @@
 const INITIAL_STATE = {value:''}
 
 export default function(state=INITIAL_STATE,action){
-    console.log(action)
     switch(action.type) {
         case  'EXPORT_SESSION':
             return {...state}

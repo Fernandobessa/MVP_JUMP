@@ -25,7 +25,6 @@ class UserSessions extends Component {
         return (
             this.props.list ?
                 <Container maxWidth="md">
-                    {console.log(this.props)}
                     <Box width="auto" height="40px" bgcolor="#FFF" p={1} my={0.5}>
                         <StyledBTNTop onClick={this.props.exportSessions}>Exportar <FaCaretDown /></StyledBTNTop>
                         <StyledInputBase onChange={this.props.changeSRC} inputProps={{style:{padding:10 }}}variant="outlined" placeholder="pesquisar"></StyledInputBase>
